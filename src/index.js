@@ -4,6 +4,6 @@ import './index.css'
 
 
 ReactDOM.render(
-    <div><strong>Teste!</strong></div>,
+    <div><strong>Teste</strong></div>,
     document.getElementById('root')
     )
