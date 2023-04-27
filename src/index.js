@@ -15,7 +15,7 @@ import ComParametro from './components/basics/ComParametro'
 ReactDOM.render(
     <div>
         <Primeiro
-        linha = 'Escola Teste'
+        linha = 'Relatorio'
         ></Primeiro>
         <ComParametro
             aluno = 'Junior' 
