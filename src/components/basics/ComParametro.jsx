@@ -1,19 +1,17 @@
+// Link to React to use JSX //
 import React from "react"
 
-export default function ComParametro(props) {
-    const status = props.nota >= 7 ? 'aprovado' : 'Reprovado'
+export default function ComParamentro(props) {
 
-    return ( 
+    const status = props.nota >= 7 ? ' aprovado' : ' reprovado'
+
+    return (
         <div>
             <h2>
-                { props.titulo }
+                <strong>{ props.aluno }</strong>
+                , nota: <strong>{ props.nota }</strong>
+                <strong>{ status }</strong>
             </h2>
-            <h3>
-                <strong> { props.aluno }</strong>
-                , nota:  
-                <strong> { props.nota }</strong>
-                <strong> { status }</strong>
-            </h3>
         </div>
     )
 }

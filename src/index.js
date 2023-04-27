@@ -1,7 +1,13 @@
+// Link to ReactDom //
 import ReactDOM from 'react-dom'
+
+// Link to React to use JSX //
 import React from 'react'
+
+// Link to CSS //
 import './index.css'
 
+// Link to os Compenents //
 import Primeiro from './components/basics/Primeiro'
 import ComParametro from './components/basics/ComParametro'
 
@@ -11,18 +17,16 @@ ReactDOM.render(
         <Primeiro
         linha = 'Escola Teste'
         ></Primeiro>
-        <ComParametro 
-            titulo = "Nome do Aluno e Nota" 
-            aluno = "Junior"
-            nota = {9.5}
-        
+        <ComParametro
+            aluno = 'Junior' 
+            nota =  { 9.2 }
         />
-
-        <ComParametro 
-            aluno = "Maria"
-            nota = { 6.8 }
-        
+        <ComParametro
+            aluno = 'Felipe' 
+            nota =  { 6.2 }
         />
     </div>,
+
+    //Link for the Header Main//
     document.getElementById('root')
     )
