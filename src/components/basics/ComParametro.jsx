@@ -9,7 +9,8 @@ export default function ComParametro(props) {
                 { props.titulo }
             </h2>
             <h3>
-                <strong> { props.aluno }</strong>, nota:  
+                <strong> { props.aluno }</strong>
+                , nota:  
                 <strong> { props.nota }</strong>
                 <strong> { status }</strong>
             </h3>
