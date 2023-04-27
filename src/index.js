@@ -8,25 +8,11 @@ import React from 'react'
 import './index.css'
 
 // Link to os Compenents //
-import Primeiro from './components/basics/Primeiro'
-import ComParametro from './components/basics/ComParametro'
-
+import App from './App'
 
 ReactDOM.render(
-    <div>
-        <Primeiro
-        linha = 'Relatorio'
-        ></Primeiro>
-        <ComParametro
-            aluno = 'Junior' 
-            nota =  { 9.2 }
-        />
-        <ComParametro
-            aluno = 'Felipe' 
-            nota =  { 6.2 }
-        />
-    </div>,
-
+    <App/>,
+    
     //Link for the Header Main//
     document.getElementById('root')
     )
