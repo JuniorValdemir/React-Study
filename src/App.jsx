@@ -5,12 +5,13 @@ import Primeiro from './components/basics/Primeiro'
 import ComParametro from './components/basics/ComParametro'
 import Fragment from './components/basics/Fragment'
 import Random from './components/basics/Random'
-
+import Card from './components/Layout/Card'
 
 export default function App () {
     return (
         <div id='app'>
             <h1>Fundamentos React 2</h1>
+            <Card/>
             <Fragment
             />
             <ComParametro
