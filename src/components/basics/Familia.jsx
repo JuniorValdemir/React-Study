@@ -6,7 +6,7 @@ export default function Familia (props) {
         <div>
             <FamiliaMembro nome = 'Junior' sobrenome = { props.sobrenome }/>
             <FamiliaMembro nome = 'Denilson' {...props}/>
-            <FamiliaMembro nome = 'Felipe' sobrenome = 'Viana'/>
+            <FamiliaMembro nome = 'Felipe' sobrenome = { props.sobrenome }/>
         </div>
     )
 }
