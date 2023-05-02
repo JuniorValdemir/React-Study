@@ -8,7 +8,7 @@ import React from 'react'
 import './index.css'
 
 // Link to os Compenents //
-import App from './App'
+import App from './App.jsx'
 
 ReactDOM.render(
     <App/>,
