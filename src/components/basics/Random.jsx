@@ -8,15 +8,15 @@ export default function Random(props) {
     return (
         <div>
             <h2>Number Random</h2>
-            <p>
+            <h3>
                 <strong>Number Max:</strong> { max }
-            </p>
-            <p>
+            </h3>
+            <h3>
                 <strong>Numver Min:</strong> { min }
-            </p>
-            <p>
+            </h3>
+            <h3>
                 <strong>Number Chosen: </strong> { random }
-            </p>
+            </h3>
         </div>
     )
     
