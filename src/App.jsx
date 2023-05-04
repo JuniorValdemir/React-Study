@@ -9,6 +9,7 @@ import Fragment from './components/basics/Fragment'
 import Random from './components/basics/Random'
 import Card from './components/Layout/Card'
 import Familia from './components/basics/Familia'
+import StudentList from './components/repetiton/StudentList'
 
 export default function App() {
     return (
@@ -16,34 +17,39 @@ export default function App() {
             <h1>Fundamentos React</h1>
 
             <div className='Cards'>
-            <Card titulo = '#05 - Componentes com Filhos' color = '#F5DEB3'>
-                    <Familia sobrenome = 'GETEC'>
-                    <FamiliaMembro nome = 'Weney' />
-                    <FamiliaMembro nome = 'Raphael' />
-                    <FamiliaMembro nome = 'Felipe' />
-                    </Familia>
+            <Card titulo = '#06 - Repetition' color = '#1E90FF'>
+                <StudentList>
 
-                </Card>
+                </StudentList>
+            </Card>
 
-                <Card titulo = '#04 - Desafio Aleatorio' color = '#080'>
-                    <Random min={1} max={60}/>
-                </Card>
+            <Card titulo = '#05 - Components with Children' color = '#F5DEB3'>
+                <Familia sobrenome = 'GETEC'>
+                <FamiliaMembro nome = 'Weney' />
+                <FamiliaMembro nome = 'Raphael' />
+                <FamiliaMembro nome = 'Felipe' />
+                </Familia>
+            </Card>
 
-                <Card titulo = '#03 - Fragment' color = '#000'>
-                    <Fragment />
-                </Card>
+            <Card titulo = '#04 - Random Challenge' color = '#080'>
+                <Random min={1} max={60}/>
+            </Card>
 
-                <Card titulo = '#02 - Com Parametro' color ='#191970'>
+            <Card titulo = '#03 - Fragment' color = '#000'>
+                <Fragment />
+            </Card>
+
+            <Card titulo = '#02 - With Parameter' color ='#191970'>
                 <ComParametro
                     titulo = 'Situação do Aluno'
-                    aluno='Junior'
-                    nota={9.2}/>
-                </Card>
+                    aluno='Angelo'
+                    nota={6.2}/>
+            </Card>
 
-                <Card titulo = '#01 - Primeiro Componente' color = '#00FA9A'>
+            <Card titulo = '#01 - First Component' color = '#00FA9A'>
                 <Primeiro
                     component = "Primeiro Componente"/>
-                </Card>
+            </Card>
 
         </div>
         </div>

@@ -14,7 +14,7 @@
 }
 
 .Card .Title {
-    padding: 6px 0px;
+    padding: 8px 0px;
     display: flex;
     justify-content: center;
 }
@@ -24,6 +24,4 @@
     background-color: #fff;
     color: #000;
     padding: 10px;
-    align-items: center;
-    text-align: center;
 }
