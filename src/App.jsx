@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 
 // Link to os Compenents //
+import ListaAlunos from './components/repetition/ListaAlunos'
 import FamiliaMembro from './components/basics/FamiliaMembro'
 import Primeiro from './components/basics/Primeiro'
 import ComParametro from './components/basics/ComParametro'
@@ -9,7 +10,6 @@ import Fragment from './components/basics/Fragment'
 import Random from './components/basics/Random'
 import Card from './components/Layout/Card'
 import Familia from './components/basics/Familia'
-import StudentList from './components/repetiton/StudentList'
 
 export default function App() {
     return (
@@ -18,9 +18,9 @@ export default function App() {
 
             <div className='Cards'>
             <Card titulo = '#06 - Repetition' color = '#1E90FF'>
-                <StudentList>
-
-                </StudentList>
+                <ListaAlunos>
+                    
+                </ListaAlunos>
             </Card>
 
             <Card titulo = '#05 - Components with Children' color = '#F5DEB3'>
