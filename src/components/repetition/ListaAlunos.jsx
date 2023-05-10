@@ -3,18 +3,18 @@ import alunos from '../../data/alunos'
 
 export default (props) => {
 
-    const lis = alunos.map((aluno) => {
+    const alunosLI = alunos.map((aluno) => {
         return (
-            <li>
-                {aluno.id}) {aluno.nome} -> {aluno.nota} 
+            <li key={aluno.id}>
+                {aluno.id}- {aluno.nome} - {aluno.nota} 
             </li>
         );
     });
 
     return (
         <div>
-            <ul>
-                {lis}
+            <ul style={{ listStyle: 'none'}}> 
+                {alunosLI}
             </ul>
         </div>
     )

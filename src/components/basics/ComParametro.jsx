@@ -7,13 +7,11 @@ export default function ComParamentro(props) {
 
     return (
         <div>
-            <p>
                 <h2>{ props.titulo }</h2>
                 
                 <strong>{props.aluno}</strong>
                 , nota: <strong>{notaInt}</strong>
                 <strong>{status}</strong>
-            </p>
         </div>
     )
 }

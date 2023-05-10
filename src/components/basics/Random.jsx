@@ -7,7 +7,7 @@ export default function Random(props) {
 
     return (
         <div>
-            <h2>Number Random</h2>
+            <h2><strong>Number Random</strong></h2>
             <h3>
                 <strong>Number Max:</strong> { max }
             </h3>
